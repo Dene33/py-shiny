@@ -106,6 +106,7 @@ from htmltools import (
     hr,
 )
 
+from ._navs_dynamic import *
 
 __all__ = (
     "row",
