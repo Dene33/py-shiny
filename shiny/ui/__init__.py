@@ -106,7 +106,7 @@ from htmltools import (
     hr,
 )
 
-from ._navs_dynamic import *
+from ._navs_dynamic import nav_insert, nav_remove, nav_show, nav_hide
 
 __all__ = (
     "row",
@@ -180,6 +180,10 @@ __all__ = (
     "navset_pill_list",
     "navset_hidden",
     "navset_bar",
+    "nav_insert",
+    "nav_remove",
+    "nav_show",
+    "nav_hide",
     "notification_show",
     "notification_remove",
     "output_plot",
