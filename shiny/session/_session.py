@@ -817,8 +817,8 @@ class Session(object, metaclass=SessionMeta):
 
         return {"deps": deps, "html": res["html"]}
 
-    def ns(self, id: Optional[str] = None) -> Optional[str]:
-        return id
+    # def ns(self, id: Optional[str] = None) -> Optional[str]:
+    #     return id
 
     def make_scope(self, id: Id) -> Session:
         ns = self.ns(id)
